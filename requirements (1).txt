@@ -6,3 +6,4 @@ statsmodels
 yfinance
 matplotlib
 requests
+plotly
