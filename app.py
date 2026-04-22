@@ -1,13 +1,18 @@
 import warnings
 warnings.filterwarnings('ignore')
 
+import io
+import re
+import zipfile
+from datetime import date
+
 import numpy as np
 import pandas as pd
-import plotly.express as px
-import plotly.graph_objects as go
-from scipy.optimize import minimize
+import requests
+import statsmodels.api as sm
 import streamlit as st
 import yfinance as yf
+import matplotlib.pyplot as plt
 
 st.set_page_config(page_title='Portfolio Optimization & Risk Lab', layout='wide')
 
