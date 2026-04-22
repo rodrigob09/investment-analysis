@@ -1,3 +1,7 @@
+from scipy.optimize import minimize
+import plotly.express as px
+import plotly.graph_objects as go
+
 import streamlit as st
 import yfinance as yf
 import pandas as pd
