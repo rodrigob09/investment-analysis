@@ -2,5 +2,7 @@ streamlit
 pandas
 numpy
 scipy
-plotly
+statsmodels
 yfinance
+matplotlib
+requests
